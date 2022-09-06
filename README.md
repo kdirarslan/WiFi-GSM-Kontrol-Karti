@@ -2,14 +2,20 @@
 ```
 Version:    v1.3
 Tarih  :    12.02.2019
+KiCad ile Tasarlanmıştır.
 ```
-## WiFi-GSM Nedir?
+
 WiFi-GSM, ESP8266, SIM800C, buzzer ve iki adet röle barındıran tümleşik bir kontrol kartıdır. 
 Dahili 3A regülatör ile kartın gerekli güç bağlantısı sağlanır.
-İhtiyaca göre ESP8266 WiFi özelliği kullanılabilir, Web sunucusu üzerinden dinamik ayarlar yapılabilir. Bir ağa bağlanarak İnternet üzerinden kontrol sağlanabilir.
 
-İhtiyaca göre GSM ile uzaktan kontrol ve sensör verileri alınabilir. 
+İhtiyaca göre ESP8266 WiFi özelliği kullanılabilir, Web sunucusu üzerinden dinamik ayarlar yapılabilir. 
+Bir ağa bağlanarak İnternet üzerinden kontrol sağlanabilir.
 
+İhtiyaca göre GSM ile uzaktan kontrol sağlanabilir ve sensör verileri alınabilir. 
+
+Şebekeye bağlanma, arama ve SMS gönderme durumlarında yüksek akım çeken SIM800C modülünün güç gereksinimi karşılamak için güçlü bir besleme hattı oluşturulmuştur. 
+
+Kart üzerindeki ESP8266, SIM800C, röleler ve buzzer için 12V 1A adaptör kullanmak yeterlidir. 
  
 
 **Ön görünüm**
@@ -57,10 +63,3 @@ Dahili 3A regülatör ile kartın gerekli güç bağlantısı sağlanır.
 ![Kutu kutu montajlı](https://user-images.githubusercontent.com/58399702/171063774-f5ca42cf-f03c-4323-a74d-35c914cc97f1.jpg)
 ------------------------
 
-
-------------------------
-## Nasıl Kullanılır
-Şebekeye bağlanma, arama ve SMS gönderme durumlarında yüksek akım çeken SIM800C modülünün güç gereksinimi karşılamak için güçlü bir besleme hattı oluşturulmuştur. 
-
-Kart üzerindeki ESP8266, SIM800C, röleler ve buzzer için 12V 1A adaptör kullanmak yeterlidir. 
---------------------------
